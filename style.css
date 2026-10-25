@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+#main {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#listProduk {
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.listBox {
+  padding: 2px 0;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 65%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+#isian {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #28a745;
+  background-color: #eafaf1;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.card-salah {
+  border: 1px solid #dc3545;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
